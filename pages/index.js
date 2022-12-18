@@ -1,24 +1,23 @@
 import React from "react";
 import HeadComponent from '../components/Head';
+import Link from 'next/link';
 
 // Constants
-const TWITTER_HANDLE = "_web3dev";
+const TWITTER_HANDLE = "andersonddc";
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
 const App = () => {
-  
-  
   return (
     <div className="App">
-      <HeadComponent/>
+      <HeadComponent />
       <div className="container">
         <header className="header-container">
-          <p className="header"> 😳 Loja de emojis 😈</p>
-          <p className="sub-text">A única loja de emojis que aceita shitcoins</p>
+          <p className="header"> 🎶 Meta Music 🔊</p>
+          <p className="sub-text">O melhor ambiente digital para curtir seu artista favorito</p>
         </header>
 
         <main>
-          <img className='gif-image' src="https://media.tenor.com/1mJ-tJSzvwsAAAAd/solana-sol.gif" alt="emoji" />
+          <img className='gif-image' src="yoda-good.gif" alt="Meta Music" />
         </main>
 
         <div className="footer-container">
@@ -28,7 +27,7 @@ const App = () => {
             href={TWITTER_LINK}
             target="_blank"
             rel="noreferrer"
-          >{`contruido na @${TWITTER_HANDLE}`}</a>
+          >{`contruido by @${TWITTER_HANDLE}`}</a>
         </div>
       </div>
     </div>
